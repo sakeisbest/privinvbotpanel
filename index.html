@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🔥 SAKE STAFF PANEL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="panel">
+  <h1>🔥 SAKE STAFF PANEL</h1>
+  <p>Dodavanje stocka (samo za staff)</p>
+
+  <select id="type">
+    <option value="fortnite">Fortnite</option>
+    <option value="roblox">Roblox</option>
+    <option value="steam">Steam</option>
+  </select>
+
+  <input id="email" placeholder="Account Email">
+  <input id="password" placeholder="Account Password">
+  <input id="key" placeholder="Staff Key">
+
+  <button onclick="addStock()">➕ Add Stock</button>
+
+  <div id="msg"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
